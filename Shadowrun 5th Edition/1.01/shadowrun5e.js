@@ -157,7 +157,7 @@ var sr5api = sr5api || (function() {
             name: 'Roll Initiative',
             info: `<div ${centered}>Roll Initiative</div><div>Roll initiative for all the selected tokens and add it to the token tracker.</div><div>${readmeLink}</div>${returnMenu}`,
             help: `<div ${centered}>Roll Initiative</div><div ${centered}>!sr5 --rollInit</div><ol><li>Set tokens to represent a characters sheet</li><li>Select a token or multiple tokens.</li><li>Run the above command or push the menu button in chat.</li></ol><div>${readmeLink}</div>${returnMenu}`,
-            error: `<div ${centered}><strong>Roll Initiative</strong></div><div ${centered}>Troubleshooting</div><ol> <li>Ensure initiative modifier attributes are valid</li> <li>Ensure initiative dice are valid</li> <li>Change attributes related to intiative then change them back to their original value to toggle sheetworkers</li> </ol> <div>${readmeLink}</div>${returnMenu}`
+            error: `<div ${centered}>Roll Initiative</div><div ${centered}>Troubleshooting</div><ol> <li>Ensure initiative modifier attributes are valid</li> <li>Ensure initiative dice are valid</li> <li>Change attributes related to intiative then change them back to their original value to toggle sheetworkers</li> </ol> <div>${readmeLink}</div>${returnMenu}`
         }
     },
 
